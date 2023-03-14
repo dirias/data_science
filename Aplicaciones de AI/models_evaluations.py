@@ -83,7 +83,7 @@ plt.show()
 
 # Predecir los valores de 2019
 start = pd.to_datetime('2019-01-01')
-end = pd.to_datetime('2019-12-01')
+end = pd.to_datetime('2024-12-01')
 y_pred_hw = hw_model.predict(start=start, end=end)
 
 # Imprimir los valores proyectados para 2019
